@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e0ea8b409e2a4c49aa3e9fc87dc07b34" Name="Diagram1">
+        <EntityTypeShape EntityType="techifyyModel.Admin" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="techifyyModel.Answer" Width="1.5" PointX="5.25" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="techifyyModel.Category" Width="1.5" PointX="1.5" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="techifyyModel.Comment" Width="1.5" PointX="3" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="techifyyModel.Follower" Width="1.5" PointX="3" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="techifyyModel.Issue" Width="1.5" PointX="6" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="techifyyModel.Pending" Width="1.5" PointX="3" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="techifyyModel.Product" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="techifyyModel.Question" Width="1.5" PointX="3" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="techifyyModel.Reply" Width="1.5" PointX="8.25" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="techifyyModel.Review" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="techifyyModel.User" Width="1.5" PointX="0.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="techifyyModel.WishList" Width="1.5" PointX="6" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="techifyyModel.FK__Answers__Questio__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="techifyyModel.FK__Answers__UserID__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="techifyyModel.FK__Products__Catego__1B0907CE" ManuallyRouted="false" />
+        <AssociationConnector Association="techifyyModel.FK__Comments__Review__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="techifyyModel.FK__Comments__UserID__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="techifyyModel.FK__Followers__UserI__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="techifyyModel.FK__Issues__ProductI__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="techifyyModel.FK__Issues__UserID__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="techifyyModel.FK__Replies__IssueID__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="techifyyModel.FK__Pendings__UserID__1273C1CD" ManuallyRouted="false" />
+        <AssociationConnector Association="techifyyModel.FK__Reviews__Product__21B6055D" ManuallyRouted="false" />
+        <AssociationConnector Association="techifyyModel.FK__WishLists__Produ__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="techifyyModel.FK__Questions__UserI__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="techifyyModel.FK__Replies__UserID__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="techifyyModel.FK__Reviews__UserID__20C1E124" ManuallyRouted="false" />
+        <AssociationConnector Association="techifyyModel.FK__WishLists__UserI__440B1D61" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
