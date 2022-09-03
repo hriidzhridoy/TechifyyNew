@@ -7,16 +7,18 @@
 <div class="container body-content">
     <hr />
     <nav class="nav background-color: #eee;">
+        @*@
         <a class="nav-link active" aria-current="page">
-            @Html.ActionLink("Specification", "ProductDetails", "ProductDetails", null,
+            @Html.ActionLink("Details", "ProductDetails", "ProductDetails", null,
                       new { @class = "btn btn-dark" })
         </a>
-        <a class="nav-link">
-            @Html.ActionLink("Review", "ReviewsInProductDetails", "Review", null,
+            *@
+        @*@<a class="nav-link">
+            @Html.ActionLink("Review / Inspect", "ReviewsInProductDetails", "Review", null,
                       new { @class = "btn btn-dark" })
-        </a>
+        </a> *@
         <a class="nav-link">
-            @Html.ActionLink("Issue", "productIssues", "Review", null,
+            @Html.ActionLink("Comment", "productIssues", "Review", null,
                        new { @class = "btn btn-dark" })
         </a>
         <br />

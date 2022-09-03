@@ -128,4 +128,4 @@ CREATE TABLE [dbo].[Followers]
 
 ) 
 
-select * from Users
+select * from users

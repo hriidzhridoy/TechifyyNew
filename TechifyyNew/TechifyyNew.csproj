@@ -130,10 +130,19 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdminsController.cs" />
     <Compile Include="Controllers\CategoriesController.cs" />
+    <Compile Include="Controllers\CommentsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\IssueController.cs" />
+    <Compile Include="Controllers\IssuesController.cs" />
     <Compile Include="Controllers\PendingsController.cs" />
     <Compile Include="Controllers\ProductDetailsController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Controllers\QandAController.cs" />
+    <Compile Include="Controllers\QuestionsController.cs" />
+    <Compile Include="Controllers\RepliesController.cs" />
+    <Compile Include="Controllers\ReviewController.cs" />
+    <Compile Include="Controllers\ReviewDetailsController.cs" />
+    <Compile Include="Controllers\ReviewsController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -351,13 +360,39 @@
     <Content Include="Views\Users\Index.cshtml" />
     <Content Include="Views\Users\Users.cshtml" />
     <Content Include="Views\Users\UserDashboard.cshtml" />
+    <Content Include="Views\QandA\ans.cshtml" />
+    <Content Include="Views\QandA\ques.cshtml" />
+    <Content Include="Views\QandA\ques_de.cshtml" />
+    <Content Include="Views\Questions\Create.cshtml" />
+    <Content Include="Views\Questions\Delete.cshtml" />
+    <Content Include="Views\Questions\Details.cshtml" />
+    <Content Include="Views\Questions\Edit.cshtml" />
+    <Content Include="Views\Questions\Index.cshtml" />
+    <Content Include="Views\Review\productIssues.cshtml" />
+    <Content Include="Views\Review\ReviewDetails.cshtml" />
+    <Content Include="Views\Review\ReviewsInProductDetails.cshtml" />
+    <Content Include="Views\ReviewDetails\ReviewDetails.cshtml" />
+    <Content Include="Views\Reviews\Create.cshtml" />
+    <Content Include="Views\Reviews\Delete.cshtml" />
+    <Content Include="Views\Reviews\Details.cshtml" />
+    <Content Include="Views\Reviews\Edit.cshtml" />
+    <Content Include="Views\Reviews\Index.cshtml" />
+    <Content Include="Views\Reviews\review_Post_details.cshtml" />
+    <Content Include="Views\Issues\Create.cshtml" />
+    <Content Include="Views\Issues\Delete.cshtml" />
+    <Content Include="Views\Issues\Details.cshtml" />
+    <Content Include="Views\Issues\Edit.cshtml" />
+    <Content Include="Views\Issues\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Product_Image\" />
     <Folder Include="profile_pic\" />
     <Folder Include="Review_Image\" />
+    <Folder Include="Views\Comments\" />
+    <Folder Include="Views\Issue\" />
     <Folder Include="Views\loginUser\" />
+    <Folder Include="Views\Replies\" />
     <Folder Include="Views\TempSearch\" />
     <Folder Include="Views\Update_profile\" />
   </ItemGroup>
